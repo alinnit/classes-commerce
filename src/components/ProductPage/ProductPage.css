@@ -1,0 +1,369 @@
+:root {
+  --Green: #44FF03;
+  --Cyan: #03FFF7;
+  --Blue: #030BFF;
+  --Black: #000000;
+  --White: #FFFFFF;
+}
+
+.productPage__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.productPage__gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.productPage__gallery__imageList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-left: 240px;
+}
+
+.gallery__images {
+  margin-top: 32px;
+  border: 2px solid #FFF;
+}
+
+.gallery__images:hover {
+  border: 2px solid #5ECE7B;
+}
+
+.productPage__gallery__image {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.productPage__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.attribute__container {
+  padding-left: 88px;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+}
+
+.options__container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+}
+
+.productPage__text {
+  width: 63px;
+  height: 45px;
+  padding-top: 12px;
+  margin-right: 12px;
+
+  color: #000000;
+  text-align: center;
+
+
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+}
+
+.productPage__text__selected {
+  width: 63px;
+  height: 45px;
+  padding-top: 12px;
+  margin-right: 12px;
+
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #000000;
+
+
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+}
+
+.productPage__swatchGreen {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 1px solid #A6A6A6;
+  box-sizing: border-box;
+
+  background-color: var(--Green);
+  color: var(--Green);
+}
+
+.productPage__swatchGreen__selected {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+
+  background-color: var(--Green);
+  color: var(--Green);
+}
+
+.productPage__swatchCyan {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 1px solid #A6A6A6;
+  box-sizing: border-box;
+
+  background-color: var(--Cyan);
+  color: var(--Cyan);
+}
+
+.productPage__swatchCyan__selected {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+
+  background-color: var(--Cyan);
+  color: var(--Cyan);
+}
+
+.productPage__swatchBlue {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 1px solid #A6A6A6;
+  box-sizing: border-box;
+
+  background-color: var(--Blue);
+  color: var(--Blue);
+}
+
+.productPage__swatchBlue__selected {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 3px solid #f811d2;
+  box-sizing: border-box;
+
+  background-color: var(--Blue);
+  color: var(--Blue);
+}
+
+.productPage__swatchBlack {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 1px solid #A6A6A6;
+  box-sizing: border-box;
+
+  background-color: var(--Black);
+  color: var(--Black);
+}
+
+.productPage__swatchBlack__selected {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 3px solid #f811d2;
+  box-sizing: border-box;
+
+  background-color: var(--Black);
+  color: var(--Black);
+}
+
+.productPage__swatchWhite {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+
+  border: 1px solid #A6A6A6;
+  box-sizing: border-box;
+
+  background-color: var(--White);
+  color: var(--White);
+}
+
+.productPage__swatchWhite__selected {
+  width: 63px;
+  height: 45px;
+  left: 929px;
+  top: 299px;
+  margin-right: 12px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+
+  background-color: var(--White);
+  color: var(--White);
+}
+
+.productPage__brand {
+
+  padding-left: 88px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+
+  color: #1D1F22;
+}
+
+.productPage__model {
+  padding-left: 88px;
+  padding-top: 16px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+
+  color: #1D1F22;
+}
+
+.optionName {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1D1F22;
+  text-transform: uppercase;
+}
+
+.productPage__price {
+  padding-top: 40px;
+}
+
+.productPage__priceText {
+  padding-left: 88px;
+
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1D1F22;
+  text-transform: uppercase;
+}
+
+.productPage__priceValue {
+  padding-left: 88px;
+  padding-top: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+
+
+  display: flex;
+  align-items: center;
+
+  color: #1D1F22;
+}
+
+.productPage__addButton0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  color: #FFF;
+  border: none;
+
+  margin-left: 88px;
+  margin-top: 20px;
+  width: 365px;
+  height: 50px;
+  left: 929px;
+  top: 478px;
+
+  background: #5ECE7B;
+}
+
+.productPage__addButton1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  color: #FFF;
+  border: none;
+
+  margin-left: 88px;
+  margin-top: 20px;
+  width: 365px;
+  height: 50px;
+  left: 929px;
+  top: 478px;
+
+  background: #000000;
+}
+
+.productPage__addButton0:hover {
+  background: #20d350;
+}
+
+.productPage__description {
+  padding-top: 40px;
+  padding-left: 88px;
+  max-width: 365px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.96%;
+}
+
+@media screen and (max-width: 930px) {
+
+  .productPage__container {
+    flex-direction: column;
+  }
+
+  .productPage__gallery__imageList {
+    margin-left: 100px;
+  }
+}
